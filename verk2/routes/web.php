@@ -12,4 +12,4 @@
 */
 
 Route::get("/", "bookCaseController@index");
-Route::get("/bookinfo/{bookid}", "boookCaseController@bookinfo");
+Route::get("/bookinfo/{bookid}", "bookCaseController@infopage");

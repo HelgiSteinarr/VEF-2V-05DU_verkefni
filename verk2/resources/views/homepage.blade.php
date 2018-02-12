@@ -9,8 +9,8 @@
         <meta name="description" content="Listi sem heldur utan um bækur">
         <meta name="author" content="Helgi Steinarr Júlíusson">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="css/styles.css?v=1.0">
-
+        <link rel="stylesheet" href="css/app.css">
+        <script src="./js/app.js"></script>
         <!--[if lt IE 9]>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
         <![endif]-->
@@ -18,11 +18,11 @@
     <body>
         <main>
             <h1>Bókahilla</h1>
-            @for ($cnt = 0; $cnt < count($book_data); $cnt++)
-                <div>
-                    
+            @foreach (array_keys($book_data) as $key)
+                <div onclick={{ "redirect('" . $key . "')" }}>
+                    {{ $book_data[$key]["name"] }}
                 </div>
-            @endfor
+            @endforeach
         </main>
     </body>
 </html>
