@@ -9,7 +9,8 @@
         <meta name="description" content="Listi sem heldur utan um bækur">
         <meta name="author" content="Helgi Steinarr Júlíusson">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="css/app.css">
+        <link rel="stylesheet" href="/css/app.css">         <!-- General css for the whole website -->
+        <link rel="stylesheet" href="/css/bookcase.css">    <!-- css specialized for this page only -->
         <script src="./js/app.js"></script>
         <!--[if lt IE 9]>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
