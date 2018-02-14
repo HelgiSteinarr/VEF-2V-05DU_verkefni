@@ -1,0 +1,7 @@
+main{
+    margin: 0 auto;
+    max-width: 800px;
+    border: solid lightgray 1px;
+    border-top: 0px;
+    padding: 25px;
+}

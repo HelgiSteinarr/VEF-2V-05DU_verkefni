@@ -1,0 +1,10 @@
+main{
+    text-align: center;
+}
+main div{
+    transition: font 0.7s ease-in-out;
+}
+main div:hover{
+    font-size: 20px;
+    cursor: pointer;
+}
